@@ -14,6 +14,8 @@ a {
     align-items: center;
     background-color: rgb(20, 19, 18);
     padding: 0 5%;
+    position: sticky;
+    top: 0;
 }
 #logo {
     font-size: 1.5rem;
@@ -50,6 +52,34 @@ a {
 }
 #main-header nav a:hover {
     color: rgb(100, 70, 36);
+}
+#side-drawer {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 22, 22);
+    position: fixed;
+    left: 0;
+}
+#side-drawer ul {
+    list-style: none;
+    margin: 0;
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#side-drawer li {
+    margin: 1rem 0;
+}
+#side-drawer a {
+    font-size: 2rem;
+    color: antiquewhite;
+    padding: 0.3rem;
+    border-radius: 6px;
+}
+#side-drawer a:hover {
+    background-color: antiquewhite;
+    color: rgb(26, 22, 22);
 }
 main h1 {
     text-align: center;
