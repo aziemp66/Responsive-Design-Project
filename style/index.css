@@ -78,3 +78,9 @@ main h1 {
 .btn :hover {
     background-color: rgb(221, 13, 34);
 }
+
+@media (max-width: 768px) {
+    #latest-product ul {
+        grid-template-columns: 100%;
+    }
+}
