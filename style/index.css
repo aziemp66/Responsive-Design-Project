@@ -79,7 +79,14 @@ main h1 {
     background-color: rgb(221, 13, 34);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
+    #main-header nav {
+        /* visibility: hidden; */
+        display: none;
+    }
+    main h1 {
+        font-size: 1.5rem;
+    }
     #latest-product ul {
         grid-template-columns: 100%;
     }
